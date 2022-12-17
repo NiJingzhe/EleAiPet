@@ -27,7 +27,7 @@ class Memory(object):
     def summary_content(self, prompt):
         completions = openai.Completion.create(
             engine="text-davinci-003",
-            prompt="概括以下对话内容: "+prompt,
+            prompt="用150字概括以下对话:\n "+prompt,
             max_tokens=1000,
             n=1,
             stop=None,
