@@ -4,7 +4,7 @@ class config(object):
         self.API_KEY = ""
         self.name = ""
         self.sex = "" #Male Female or Unsure
-        self.age = 22
+        self.age = 0
         self.pet_relation = ""
         self.speak_style = ""
         self.other_info = ""
